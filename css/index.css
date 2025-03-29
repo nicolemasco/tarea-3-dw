@@ -34,6 +34,9 @@ html {
     padding: 120px 0;
 }
 
+h2{
+    padding-bottom: 20px;
+}
 p{
     font-size: 1.2rem;
 }
@@ -41,6 +44,29 @@ p{
 .linea {
     margin: 5rem 0;
 }
+
+/*seccion 1*/
+#experiencias{
+    padding-bottom: 80px;
+}
+
+#experiencia {
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease; /*efecto más suave*/
+    border-radius: 10px;
+}
+
+#experiencia:hover {
+    transform: scale(1.03);  /* Efecto de zoom */
+    opacity: 0.8;  /* Hace la imagen más clara */
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .btn-dark {
     color: #1a1a1a; 
@@ -58,6 +84,38 @@ p{
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
 }
 
+.titulajes {
+    color: #bb937b;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+#experiencias{
+    padding-top: 60px;
+}
+
+.fondo2 {
+    padding: 100px 0px;
+    color: white;
+    background-color: #7f513c;
+}
+
+#audio-titanic {
+    background-image: url('/img/oceano.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+
+}
+
+.content {
+    text-align: center;
+    color: white;
+}
 
 
 footer {
