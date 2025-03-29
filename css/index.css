@@ -86,7 +86,6 @@ p{
 
 .titulajes {
     color: #bb937b;
-    font-weight: bolder;
     font-size: 2.5rem;
 }
 
@@ -117,6 +116,50 @@ p{
     color: white;
 }
 
+/*chat*/
+
+.container-botonws {
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    right: 5px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-botonws:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.whatsapp {
+    position: fixed;
+    z-index: 1000;
+    background-color: #25d366;
+    text-decoration: none;
+    transition: all 1s ease-in;
+
+}
+
+div .whatsapp:hover {
+    background-color: purple !important;
+}
+
+/* scrollTop */
+.goto-top img {
+    width: 50px; 
+    height: 50px; 
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 110px;
+    right: 25px;
+    z-index: 1000;
+    transition: right 0.3s ease;
+}
+
+
 
 footer {
     color: white;
@@ -130,3 +173,4 @@ footer p {
     font-weight: 500;
     padding-top: 15px;
 }
+
